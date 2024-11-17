@@ -1,4 +1,5 @@
 com.mycompany.app
 com.mycompany.behavior
 com.mycompany.creational
+com.mycompany.exception
 com.mycompany.structural

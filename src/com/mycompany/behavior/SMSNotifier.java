@@ -8,4 +8,9 @@ public class SMSNotifier implements Observer{
     public void update(String message) {
         System.out.println("Notificación por SMS: " + message);
     }
+
+    @Override
+    public String toString() {
+        return "SMSNotifier{}";
+    }
 }

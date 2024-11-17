@@ -14,6 +14,8 @@ public class ExternalServiceAdapter extends Reservation {
 
     @Override
     public void book() {
+        this.type = "Externo";
         externalService.bookExternal();
     }
+
 }

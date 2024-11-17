@@ -12,14 +12,22 @@ public class InsuranceDecorator extends Reservation {
         this.reservation = reservation;
     }
 
+    /**
+     * Invoca método que añade seguro a reservación
+     */
     @Override
     public void book() {
-        reservation.book();
         addInsurance();
     }
 
+    /**
+     * Añade seguro a reservación
+     */
     private void addInsurance() {
+        this.reservation.setInsurance(true);
         System.out.println("Seguro añadido.");
     }
+
+
 }
 

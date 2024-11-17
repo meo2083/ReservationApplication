@@ -1,7 +1,7 @@
 package com.mycompany.structural;
 
 /**
- * Clase que será utilizada en patrón estructural Adapter
+ * Clase que es utilizada en patrón estructural Adapter
  */
 public class ExternalBookingService implements ExternalService {
     public void bookExternal() {
